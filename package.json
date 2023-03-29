@@ -1,0 +1,15 @@
+{
+  "name": "app-runner-minimal",
+  "version": "1.0.0",
+  "description": "A minimal example to reproduce a bug",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "./migrate.sh"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
