@@ -4,8 +4,9 @@
   "description": "A minimal example to reproduce a bug",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "migrate": "./migrate.sh"
+    "start": "npm run migrate start && node index.js",
+    "migrate": "./migrate.sh",
+    "build": "npm ci && npm run migrate build"
   },
   "author": "",
   "license": "UNLICENSED",
